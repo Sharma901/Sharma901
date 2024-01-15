@@ -36,7 +36,7 @@
   <h1>Happy Makar Sankranti!</h1>
   <p>May the sun radiate peace, prosperity, and happiness in your life. Wishing you and your family a joyous Makar Sankranti!</p>
   
-  <img src="https://["](https://images.app.goo.gl/FtWqB8v4D2ixK52s7)>
+  <img src="https://["]([)](https://images.app.goo.gl/FtWqB8v4D2ixK52s7)>
 
   <p>Best wishes,<br>Govinda Sharma</p>
 </body>
