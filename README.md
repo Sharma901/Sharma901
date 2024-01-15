@@ -1,15 +1,25 @@
 
-def makar_sankranti_wish(Govinda Sharma):
-    return f"Happy Makar Sankranti, {my family and friends❤️❤️}! May this festival bring joy and prosperity to you and your family."
+from PIL import Image, ImageDraw, ImageFont
 
-def main():
-    # List of my friends and family 
-    recipients = ["my friends and family 1", "Friend 1", "radhe radhe", "sre Krishna"]
+# Create a blank image with a white background
+width, height = 400, 400
+image = Image.new("RGB", (width, height), "white")
 
-    # Loop through the list and print wishes for each person
-    for recipient in recipients:
-        wish = makar_sankranti_wish(recipient)
-        print(wish)
+# Load a font
+font = ImageFont.load_default()
 
-if __by Govinda Sharma__ == "__🎎🎎🎎🎎🥮🥮🥮__":
-    main()
+# Create a drawing object
+draw = ImageDraw.Draw(image)
+
+# Define the text and position
+text = "Ayus Adhikari"
+text_position = ((width - draw.textsize(text, font)[0]) // 2, height // 2)
+
+# Add text to the image
+draw.text(text_position, text, fill="black", font=font)
+
+# Save the image
+image.save("robot_ayus_adhikari.png")
+
+# Display the image
+image.show()
