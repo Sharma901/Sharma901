@@ -1,0 +1,19 @@
+- 👋 Hi, I’m @Sharma901
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+Sharma901/Sharma901 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+def makar_sankranti_wish(Govinda Sharma):
+    wish = f"Happy Makar Sankranti, {name}! May this festival bring joy and prosperity to you and your family."
+    return wish
+
+# Replace 'Govinda Sharma' with the desired name
+name = 'Govinda Sharma'
+print(makar_sankranti_wish(Govinda Sharma))
